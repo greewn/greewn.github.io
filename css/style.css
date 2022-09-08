@@ -49,3 +49,66 @@ body {
     color: black;
     border-bottom: solid 5px #ddd;
   }
+
+/* Controller DIV */
+.controller {
+    margin: auto;
+    background-color: #403E3E;
+    width: 40%;
+    height: 300px;
+    border: solid 10px #A61731;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #888888;
+  }
+
+  .button {
+    border: none;
+    border-radius: 30px;
+    color: #BFBFBF;
+    padding: 20px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: solid 5px black;    
+    box-shadow: 0px 0px 5px black;
+  }
+
+  .upbutton{
+    margin-top: 50px;
+    margin-left: 200px;
+  }
+  .downbutton{
+    margin-left: 200px;
+  }
+  .leftbutton{
+    margin-left: 145px;
+  }
+  .rightbutton{
+    margin-left: 60px;
+  }
+
+  .xbutton{
+    background: #99B1C9;
+    float: right;
+    margin-top: 50px;
+    margin-right: 200px;
+  }
+  .bbutton{
+    background: #F2D027;
+    float: right;
+    margin-right: 200px;
+  }
+  .ybutton{
+    background: #B0D9BA;
+    float: right;
+    margin-right: 145px;
+  }
+  .abutton{
+    background: #D92E1E;
+    float: right;
+    margin-right: 60px;
+  }
+  
