@@ -6,28 +6,30 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <link rel="stylesheet" href="css/style.css">
+
+<script src="js/index.js"></script>  
 </head>
 <body>
 
 <!-- Navbar (sit on top) -->
 <div class="topnav">
     <a class="active" href="#home">Henry Nguyen</a>
-    <a href="#thing1">Thing 1</a>
-    <a href="#thing2">Thing 2</a>
     <a href="#thing3">Thing 3</a>
+    <a href="#thing2">Thing 2</a>
+    <a href="#thing1">Thing 1</a>
 </div>
 
 <div class="controller">
-    <button class="button upbutton"></button>
-    <button class="button xbutton"></button>
+    <button class="button upbutton" onmousedown="up_mDown(this)" onmouseup="up_mUp(this)"></button>
+    <button class="button xbutton" onmousedown="x_mDown(this)" onmouseup="x_mUp(this)"></button>
     <br>
-    <button class="button leftbutton"></button>
-    <button class="button rightbutton"></button>
-    <button class="button ybutton"></button>
-    <button class="button abutton"></button>
+    <button class="button leftbutton" onmousedown="left_mDown(this)" onmouseup="left_mUp(this)"></button>
+    <button class="button rightbutton" onmousedown="right_mDown(this)" onmouseup="right_mUp(this)"></button>
+    <button class="button ybutton" onmousedown="y_mDown(this)" onmouseup="y_mUp(this)"></button>
+    <button class="button abutton" onmousedown="a_mDown(this)" onmouseup="a_mUp(this)"></button>
     <br>
-    <button class="button downbutton"></button>
-    <button class="button bbutton"></button>
+    <button class="button downbutton" onmousedown="down_mDown(this)" onmouseup="down_mUp(this)"></button>
+    <button class="button bbutton" onmousedown="b_mDown(this)" onmouseup="b_mUp(this)"></button>
 </div>
 
 </body>
