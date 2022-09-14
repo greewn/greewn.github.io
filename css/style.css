@@ -79,13 +79,13 @@ body {
 
   .upbutton{
     margin-top: 50px;
-    margin-left: 200px;
+    margin-left: 150px;
   }
   .downbutton{
-    margin-left: 200px;
+    margin-left: 150px;
   }
   .leftbutton{
-    margin-left: 145px;
+    margin-left: 95px;
   }
   .rightbutton{
     margin-left: 60px;
@@ -95,17 +95,17 @@ body {
     background: #99B1C9;
     float: right;
     margin-top: 50px;
-    margin-right: 200px;
+    margin-right: 150px;
   }
   .bbutton{
     background: #F2D027;
     float: right;
-    margin-right: 200px;
+    margin-right: 150px;
   }
   .ybutton{
     background: #B0D9BA;
     float: right;
-    margin-right: 145px;
+    margin-right: 95px;
   }
   .abutton{
     background: #D92E1E;
